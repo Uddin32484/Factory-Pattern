@@ -41,7 +41,9 @@ jobs:
 
       - name: Upload test reports (optional)
         if: always()
-        uses:  actions/upload-artifact@v3
+        uses: actions/checkout@v4
+        
+
         with:
           name: testng-reports
           path: target/surefire-reports/
