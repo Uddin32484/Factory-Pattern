@@ -12,7 +12,7 @@ public class FlightSearchTestPage extends BaseTest {
     public void searchFlight() throws InterruptedException {
         FlightSearchPage flightSearchPage = new FlightSearchPage();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        //flightSearchPage.clickOnPoupDisplay();
+           flightSearchPage.clickOnPoupDisplay();
 //        flightSearchPage.ClickOnFlightMenu();
 //        flightSearchPage.roundTripSelection();
 //        flightSearchPage.enterDepatureCity();
@@ -29,7 +29,7 @@ public class FlightSearchTestPage extends BaseTest {
 //        date.click();;
       // flightSearchPage.enterDepatureDate();
       // flightSearchPage.enterReturnDate();
-       flightSearchPage.searchButton();
+        flightSearchPage.searchButton();
 
     }
 }
